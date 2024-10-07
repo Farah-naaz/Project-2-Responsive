@@ -1,0 +1,421 @@
+/* ===================== font links =================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* ============== common css part start ============== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.common_head h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: var(--normalColor);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.common_head p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: #666666;
+    text-align: center;
+}
+:root{
+    --montserrat : "Montserrat", sans-serif;
+    --normalColor : #333333;
+    --brandcolor : #054C73;
+}
+/* ;;;;;;;;;;;;;;; common css part end ;;;;;;;;;;;;;;; */
+
+/* ============== menu part start ============== */
+.main_menu{
+    padding-top: 43px;
+    padding-bottom: 48px;
+}
+.main_menu ul{
+    gap: 73px;
+}
+.main_menu ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--montserrat);
+    color: var(--normalColor) !important;
+    position: relative;
+}
+.main_menu ul li a:hover{
+    font-size: 17px;
+    color: skyblue !important; 
+    transition: all linear .4s;  
+}
+.main_menu ul li a::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: #054C73;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: all linear .4s;
+}
+.main_menu ul li a:hover::after{
+    transform: rotate(10deg);
+}
+/* ;;;;;;;;;;;;;;;  menu part end ;;;;;;;;;;;;;;; */
+
+/* ============== banner part start ============== */
+#banner{
+    background: url(../images/bannnerbg.jpg);
+    padding-top: 155px;
+    padding-bottom: 151px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_main_card{
+    display: flex;
+    justify-content: end;
+}
+.banner_card{
+    width: 643px;
+    border-radius: 10px;
+    background: #DFE9F4;
+    padding: 37px 58px 41px 39px;
+}
+.banner_card h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--montserrat);
+    color: var(--normalColor);
+    letter-spacing: 3px;
+}
+.banner_card h1{
+    width: 421px;
+    font-size: 52px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: var(--brandcolor); 
+    margin: 20px 0;
+}
+.banner_card p{
+    width: 546px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--montserrat);
+    color: var(--normalColor);
+    line-height: 39px;
+}
+.banner_card a{
+    width: 229px;
+    height: 70px;
+    border-radius: 50px;
+    background: var(--brandcolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #FFFFFF;
+    margin-top: 30px;
+    transition: all linear .4s;
+}
+.banner_card a:hover{
+    background: silver;
+    transition: all linear .4s;
+}
+/* ;;;;;;;;;;;;;;; banner part end ;;;;;;;;;;;;;;; */
+
+/* ============== options part start ============== */
+#options{
+    padding-top: 46px;
+    padding-bottom: 49px;
+    background: #F2F5FF;
+}
+.main_option{
+    display: flex;
+    gap: 27px;
+}
+.option_text h2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--montserrat);
+    color: var(--normalColor);
+}
+.option_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: var(--normalColor);
+}
+/* ;;;;;;;;;;;;;;; options part end ;;;;;;;;;;;;;;; */
+
+/* ============== collection part start ============== */
+#collection{
+    padding-top: 60px;
+    padding-bottom: 66px;
+}
+#collection .common_head p{
+    margin-bottom: 87px;
+}
+.collections_card{
+    width: 355px;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px;
+    border-top-left-radius: 80px;
+    margin-top: 87px;
+    overflow: hidden;
+    transition: all linear .8s ;
+}
+.collections_card:hover{
+    margin-top: -79px;
+    transition: all linear .8s ;
+}
+.collections_card .collection2:hover{
+    margin-top: -79px;
+    transition: all linear .8s ;
+}
+.collections_card .collection2:hover{
+    margin-top: -79px;
+    transition: all linear .8s ;
+}    
+.collection2{
+    border-radius: 0px;
+}
+.collection3{
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 80px;
+}
+/* ;;;;;;;;;;;;;;; collection part end ;;;;;;;;;;;;;;; */
+
+/* ============== beautify part start ============== */
+#beautify{
+    padding-top: 55px;
+    padding-top: 65px;
+    background: #F2F5FF;
+}
+.beautify_row{
+    align-items: center ;
+}
+.beautify_text h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: var(--normalColor);  
+}
+.beautify_text p{
+    width: 489px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    line-height: 39px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #666666     
+}
+.beautify_text a{
+    width: 228px;
+    height: 68px;
+    border-radius: 50px;
+    background: var(--brandcolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #FFFFFF;
+    margin-top: 30px;
+    transition: all linear .4s;
+}
+.beautify_text a:hover{
+    background: silver;
+    transition: all linear .4s;
+}
+/* ;;;;;;;;;;;;;;; beautify part end ;;;;;;;;;;;;;;; */
+
+/* ============== range part start ============== */
+#range{
+    padding-top: 55px;
+    padding-bottom: 121px;
+}
+#range .common_head p{
+    margin-bottom: 50px;
+}
+.range_card{
+    width: 381px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    transition: all linear .4s;
+}
+.range_card:hover{
+    margin-top: -50px;
+    transition: all linear .4s;
+}
+.range_text h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--montserrat);
+    color: var(--normalColor);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+/* ;;;;;;;;;;;;;;; range part end ;;;;;;;;;;;;;;; */
+
+/* ============== works part start ============== */
+#works{
+    padding-bottom: 198px;
+}
+.work_card{
+    width: 381px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    transition: all linear .4s;
+}
+.work_card:hover{
+    margin-top: -5px;
+    transition: all linear .4s;
+}
+.work_card_img{
+    position: relative;
+}
+.work_card_number h3{
+    width: 60px;
+    height: 60px;
+    background: #111111;
+    border-radius: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    outline: 15px solid #FFFFFF;
+}
+.work_card_text h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: var(--normalColor); 
+    text-align: center;
+    margin-top: 75px;
+}
+.work_card_text p{
+    width: 381px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: #666666; 
+    text-align: center;
+}
+/* ;;;;;;;;;;;;;;; works part end ;;;;;;;;;;;;;;; */
+
+/* ============== mailing part start ============== */
+#mailing{
+    padding-top: 59px;
+    padding-bottom: 61px;
+    background: #F2F5FF;
+}
+
+#mailing .common_head h2{
+    margin-bottom: 10px;
+}
+#mailing .common_head p{
+    width: 514px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.mail_input{
+    width: 486px;
+    height: 70px;
+    border: 1px solid #054C73;
+    border-radius: 3px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.mail_input input {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    border: none;
+    padding-left: 25px;
+    }
+.mail_input button{
+    width: 153px;
+    height: 70px;
+    background: var(--brandcolor);
+    border: 1px solid #011C42;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #FFFFFF;
+    transition: all linear .4s;
+}
+.mail_input button:hover{
+    background: silver;
+    transition: all linear .4s;
+}
+/* ;;;;;;;;;;;;;;; mailing part end ;;;;;;;;;;;;;;; */
+
+/* ============== footer part start ============== */
+#footer{
+    padding-top: 49px;
+    padding-bottom: 89px;
+    background: #03344F;
+}
+.footer_text h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #FFFFFF;
+}
+.footer_text p{
+    width: 400px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: #FFFFFF;
+    margin-top: 34px;
+    margin-bottom: 21px;
+}
+.footer_text h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #FFFFFF;
+}
+.foooter_card_text h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #FFFFFF; 
+    margin-bottom: 34px;
+}
+.footer_card{
+    display: flex;
+    gap: 21px;
+}
+/* ;;;;;;;;;;;;;;; footer part end ;;;;;;;;;;;;;;; */

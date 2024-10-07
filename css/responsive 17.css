@@ -1,0 +1,219 @@
+@media (min-width: 0) and (max-width: 575.98px) { 
+    /* =========== menu bar start ============== */
+    .main_menu .menu_logo img{
+        width: 130px;
+    }
+    .main_menu {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .navbar-toggler {
+        padding: 3px 5px;
+        background-color: #054C73;
+        border-radius: 5px ;
+        color: silver;
+        font-size: 20px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    /* =========== menu bar end ============== */
+
+    /* =========== banner part start ============== */
+    #banner {
+        padding-top: 80px;
+        padding-bottom: 75px;
+    }
+    .banner_main_card {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+    .banner_card {
+        width: 296px;
+        padding-left: 24px;
+    }
+    .banner_card h1 {
+        width: 265px;
+        font-size: 30px;
+    }
+    .banner_card p {
+        width: 270px;
+        font-size: 14px;
+        font-weight: 460;
+    }
+    .banner_card a {
+        width: 200px;
+        height: 60px;
+    }
+    /* =========== banner part end ============== */
+
+    /* =========== options part start ============== */
+    #options {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .main_option .option_image img{
+        width: 65px;
+    }
+    .option_text h2 {
+        font-size: 22px;
+    }
+    .option_text p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    /* =========== options part end ============== */
+
+    /* =========== collection part start ============== */
+    .row_collection{
+        gap:20px;
+    } 
+    #collection .common_head p {
+        margin-bottom: 5px;
+    }
+    .collections_card {
+        width: 100%;
+    }
+    .collections_card:hover{
+        margin-top: 0;
+    }
+    .collections_card .collection2:hover{
+        margin-top: 0;
+    }
+    .collections_card .collection2:hover{
+        margin-top: 0;
+    }   
+    /* =========== collection part end ============== */
+    
+    /* =========== beautify part start ============== */
+    #beautify {
+        padding-top: 55px;
+        padding-bottom: 30px;
+    }
+    #beautify img{
+        width: 100%;
+    }
+    .beautify_text p {
+        width: 100%;
+    }
+    .beautify_text a {
+        width: 206px;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+    /* =========== beautify part end ============== */
+ 
+    /* =========== range part start ============== */
+    #range {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    .common_head h2 {
+        font-size: 25px;   
+    }
+    #range .common_head p {
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+    .range_card {
+        width: 100%;
+    }
+    .range_card:hover{
+        margin-top: 0px;
+    }
+    .range_text h3 {
+       margin-bottom: 20px;
+    }
+    /* =========== range part end ============== */
+    
+    /* =========== works part start ============== */
+    #works {
+        padding-bottom: 100px;
+    }
+    #works .common head h2{
+        font-size: 25px;
+    }
+    #works .common head p{
+        font-size: 12px;
+    }
+    .work_card{
+        width: 100%;
+    }
+    .work_card:hover {
+        margin-top: 0px;
+    }
+    .work_card_number h3 {
+        
+        font-size: 20px;
+    }
+    .work_card_text h2 {
+	    font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .work_card_text p {
+        width: 300px;
+        font-size: 14px;
+    }
+    /* =========== works part end ============== */
+
+    /* =========== mailing part start ============== */
+    #mailing {
+        padding-top: 30px;
+        padding-bottom: 45px;
+        background: #F2F5FF;
+    }
+    #mailing .common_head h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    #mailing .common_head p {
+        width: 300px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .mail_input {
+        width: 266px;
+      
+    }
+    .mail_input input {
+        font-size: 10px;
+    }
+    .mail_input button {
+        font-size: 14px;
+    }
+    /* =========== mailing part end ============== */
+
+     /* =========== footer part start ============== */
+     #footer{
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
+     .footer_text h2{
+        font-size: 25px;
+    }
+    .footer_text p {
+        width: 300px;
+        font-size: 14px;
+    }
+    .footer_text h3{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .foooter_card_text h2 {
+        font-size: 22px;
+    }
+    .footer_card a{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 15px 15px;
+    }
+    /* =========== footer part end ============== */  
+}
+
+
+
+
+
+   
